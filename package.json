@@ -1,0 +1,17 @@
+{
+  "name": "node_https",
+  "version": "1.0.0",
+  "description": "Projeto para estudo https e nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "https",
+    "javascript"
+  ],
+  "author": "Paulo Henrique Sales Sampaio",
+  "license": "MIT"
+}
