@@ -16,12 +16,16 @@ app.use(function(requisicao, resposta, next){
     next();
 });
 
+consign()
+    .include('./app/routes')
+    .then('./app/controllers')
+    .into(app);
+
 
 let server = https.createServer({
     key: fs.readFileSync('./config/server.key'),
     cert: fs.readFileSync('./config/server.cert')
 }, app)
-
 
 module.exports.app = app;
 module.exports.server = server;
